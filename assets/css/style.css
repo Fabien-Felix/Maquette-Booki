@@ -31,6 +31,11 @@ header h1 {
     padding-top: 20px;
 }
 
+header img {
+    height: 36px;
+    margin-top: 22px;
+}
+
 /* Navigation */
 
 nav ul {
@@ -88,4 +93,76 @@ nav li a:hover {
 input[type=search] {
     width: 237px;
     height: 51px;
+    padding-left: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-top: 1px #d9d9d9 solid;
+    border-bottom: 1px #d9d9d9 solid;
+}
+
+button {
+    width: 133px;
+    height: 51px;
+    border-radius: 0px 16px 16px 0px;
+    border: 0px #d9d9d9 solid;
+    background-color: #0065FC;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #0065FC;
+    background-color: #d9d9d9;
+}
+
+.loupe {
+    display: none;
+}
+
+/* Filtres */
+
+.filtres {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-filtre {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filtre {
+    margin-left: 48px;
+    border: 2px solid #d9d9d9;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+.filtre:hover {
+    background-color: #deebff;
+}
+
+.filtre i {
+    color: #0065FC;
+    font-size: 20px;
+}
+
+.filtre span {
+    padding-left: 15px;
+}
+
+/* Infos */
+
+.infos {
+    margin-top: 35px;
 }
