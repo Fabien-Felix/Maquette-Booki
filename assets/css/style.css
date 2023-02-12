@@ -686,5 +686,6 @@ mark {
 
     .footer-liens {
         width: 100%;
+        padding: 35px 30px;
     }
 }
